@@ -82,7 +82,7 @@ void main() {
       'Agrupar os pacientes por familia(considerar o sobrenome) apresentar por familia.');
   print('________________________________');
 
-  List<String> familias = [];
+  var familias = <String>[];
 
   for (var paciente in pacientesDesafio) {
     var familia = paciente.split('|')[0].split(' ').last;
